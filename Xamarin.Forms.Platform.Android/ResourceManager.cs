@@ -75,6 +75,7 @@ namespace Xamarin.Forms.Platform.Android
 
 		[Obsolete("GetDrawable(this Resources, string) is obsolete as of version 2.5. "
 			+ "Please use GetDrawable(this Context, string) instead.")]
+		[EditorBrowsable(EditorBrowsableState.Never)]
 		public static Drawable GetDrawable(this Resources resource, string name)
 		{
 			int id = IdFromTitle(name, DrawableClass);

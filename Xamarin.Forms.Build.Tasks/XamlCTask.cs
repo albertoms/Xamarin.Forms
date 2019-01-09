@@ -22,6 +22,7 @@ namespace Xamarin.Forms.Build.Tasks
 		public bool OptimizeIL { get; set; }
 
 		[Obsolete("OutputGeneratedILAsCode is obsolete as of version 2.3.4. This option is no longer available.")]
+		[EditorBrowsable(EditorBrowsableState.Never)]
 		public bool OutputGeneratedILAsCode { get; set; }
 
 		public bool CompileByDefault { get; set; }

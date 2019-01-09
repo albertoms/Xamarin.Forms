@@ -37,6 +37,7 @@ using Xamarin.Forms.Internals;
 namespace Xamarin.Forms.Xaml.Internals
 {
 	[Obsolete ("Replaced by ResourceLoader")]
+	[EditorBrowsable(EditorBrowsableState.Never)]
 	public static class XamlLoader
 	{
 		static Func<Type, string> xamlFileProvider;
